@@ -1,0 +1,102 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+
+}
+
+.main-header {
+  width: 100%;
+  height: 75px;
+  background-color: black;
+
+}
+
+.hero-outer {
+  position: relative;
+}
+
+.hero-container  {
+background-image: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+width: 100%;
+}
+
+.callout {
+  height: 300px ;
+  width: 400px;
+  background-color: white;
+
+bottom: 0;
+left: 100px;
+}
+
+.main-header {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  list-style-type: none;
+
+
+}
+.main-header ul {
+display: none;
+
+}
+
+  .main-header ul li{
+    color: white;
+    float: left;
+    list-style-type: none;
+}
+
+.advertise-wrapper{
+  height: 600px;
+  width: 100%;
+  background-color: skyblue;
+
+}
+
+.advertise-wrapper .column{
+  height: 100%;
+  width: 33.33%;
+  background-color: skyblue;
+
+}
+
+
+  @media screen and (max-width: 800px) {
+
+  .callout {
+    width: 100%;
+    position: static;
+
+  }
+
+  .hamburger-button {
+    height: 50px;
+    width: 50px;
+  }
+
+  .hamburger-button .bar {
+    height: 100%;
+    width: static;
+    display: none;
+
+}
+
+.main-header ul {
+display: none;
+
+}
+
+  .main-header ul li{
+    color: white;
+    float: left;
+    list-style-type: none;
+}

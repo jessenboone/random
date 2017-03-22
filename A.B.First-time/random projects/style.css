@@ -1,0 +1,15 @@
+.col-1 {
+  height: 100vh;
+  width: 50%;
+  float: left;
+  background-color: rgb(37, 92, 147);
+  opacity: .9;
+}
+
+.col-2 {
+  height: 100vh;
+  width: 50%;
+  float: left;
+  background-color: black;
+  opacity: .79;
+}
